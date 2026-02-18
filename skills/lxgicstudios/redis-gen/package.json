@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate Redis key patterns and data structure designs",
   "main": "dist/index.js",
-  "bin": { "ai-redis-schema": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["redis","cache","schema","key-patterns","database","ai","cli"],
+  "bin": {
+    "ai-redis-schema": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "redis",
+    "cache",
+    "schema",
+    "key-patterns",
+    "database",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

@@ -7,7 +7,7 @@
     "youtube-studio": "scripts/youtube-studio.js"
   },
   "scripts": {
-    "start": "node scripts/youtube-studio.js",
+    "start": "node init && node scripts/youtube-studio.js",
     "auth": "node scripts/youtube-studio.js auth",
     "stats": "node scripts/youtube-studio.js stats",
     "upload": "node scripts/youtube-studio.js upload",

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "node scripts/test-capture.js",
-    "start": "node scripts/overwatch-checkin.js",
+    "start": "node init && node scripts/overwatch-checkin.js",
     "receiver": "node scripts/esp32-cam-receiver.js",
     "analyzer": "node scripts/analyzer.js",
     "checkin": "node scripts/overwatch-checkin.js"

@@ -7,9 +7,16 @@
     "ai-dark-mode": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["dark-mode", "theme", "css", "ai", "cli", "tailwind"],
+  "keywords": [
+    "dark-mode",
+    "theme",
+    "css",
+    "ai",
+    "cli",
+    "tailwind"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

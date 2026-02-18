@@ -4,14 +4,20 @@
   "description": "A sample web application with various dependencies for testing dependency auditing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "build": "webpack --mode production",
+    "start": "node init && node index.js",
+    "dev": "node init && nodemon index.js",
+    "build": "node init && webpack --mode production",
     "test": "jest",
     "lint": "eslint src/",
     "audit": "npm audit"
   },
-  "keywords": ["web", "app", "sample", "dependency", "audit"],
+  "keywords": [
+    "web",
+    "app",
+    "sample",
+    "dependency",
+    "audit"
+  ],
   "author": "Claude Skills Team",
   "license": "MIT",
   "dependencies": {

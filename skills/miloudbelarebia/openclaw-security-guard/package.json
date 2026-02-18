@@ -1,7 +1,7 @@
 {
   "name": "openclaw-security-guard",
   "version": "1.0.0",
-  "description": "🛡️ Complete security layer for OpenClaw - CLI Scanner + Live Dashboard. No telemetry, 100% private.",
+  "description": "\ud83d\udee1\ufe0f Complete security layer for OpenClaw - CLI Scanner + Live Dashboard. No telemetry, 100% private.",
   "main": "src/index.js",
   "type": "module",
   "bin": {
@@ -9,8 +9,8 @@
     "openclaw-security-guard": "./src/cli/index.js"
   },
   "scripts": {
-    "start": "node src/cli/index.js",
-    "dev": "node --watch src/cli/index.js",
+    "start": "node init && node src/cli/index.js",
+    "dev": "node init && node --watch src/cli/index.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:unit": "vitest run tests/unit",
@@ -26,7 +26,7 @@
     "audit:code": "node src/cli/index.js audit --ci",
     "pretest": "npm run lint",
     "prepublishOnly": "npm run test && npm run audit:deps",
-    "postinstall": "echo '🛡️ OpenClaw Security Guard installed! Run: openclaw-guard --help'"
+    "postinstall": "echo '\ud83d\udee1\ufe0f OpenClaw Security Guard installed! Run: openclaw-guard --help'"
   },
   "keywords": [
     "openclaw",

@@ -29,7 +29,7 @@
     "@types/node": "^20.0.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "echo \"No tests yet\""
   }
 }

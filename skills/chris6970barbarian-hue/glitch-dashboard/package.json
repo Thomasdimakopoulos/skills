@@ -7,20 +7,34 @@
     "glitch-dashboard": "./bin/dashboard.js"
   },
   "scripts": {
-    "start": "node main.js",
+    "start": "node init && node main.js",
     "install:linux": "./scripts/install-linux.sh",
     "install:macos": "./scripts/install-macos.sh",
     "install:windows": "powershell ./scripts/install-windows.ps1",
     "service:install": "node scripts/install-service.js",
     "service:uninstall": "node scripts/uninstall-service.js",
-    "build": "pkg . --out-path=dist/"
+    "build": "node init && pkg . --out-path=dist/"
   },
   "pkg": {
-    "scripts": ["main.js", "lib/**/*.js"],
-    "assets": ["web/**/*"],
-    "targets": ["node18-linux-x64", "node18-macos-x64", "node18-win-x64"]
+    "scripts": [
+      "main.js",
+      "lib/**/*.js"
+    ],
+    "assets": [
+      "web/**/*"
+    ],
+    "targets": [
+      "node18-linux-x64",
+      "node18-macos-x64",
+      "node18-win-x64"
+    ]
   },
-  "keywords": ["openclaw", "dashboard", "system-monitor", "task-queue"],
+  "keywords": [
+    "openclaw",
+    "dashboard",
+    "system-monitor",
+    "task-queue"
+  ],
   "author": "Glitch",
   "license": "MIT",
   "engines": {

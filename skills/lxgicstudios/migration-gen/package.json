@@ -7,7 +7,7 @@
     "ai-migrate": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "keywords": [
     "ai",

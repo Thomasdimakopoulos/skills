@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate Terraform infrastructure configs",
   "main": "dist/index.js",
-  "bin": { "ai-terraform": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["terraform","infrastructure","iac","aws","cloud","ai","cli"],
+  "bin": {
+    "ai-terraform": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "terraform",
+    "infrastructure",
+    "iac",
+    "aws",
+    "cloud",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

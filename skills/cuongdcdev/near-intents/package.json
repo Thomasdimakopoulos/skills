@@ -41,7 +41,7 @@
     "test:watch": "jest --watch",
     "test:integration": "ts-node scripts/test_intent.ts",
     "test:coverage": "jest --coverage",
-    "build": "tsc",
+    "build": "node init && tsc",
     "swap:test": "ts-node test-1click-swap.ts"
   },
   "dependencies": {

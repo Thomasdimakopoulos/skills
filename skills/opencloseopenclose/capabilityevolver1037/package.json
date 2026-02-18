@@ -4,7 +4,7 @@
   "description": "A self-evolution engine for AI agents with Knowledge Base support.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node init && node index.js",
     "loop": "node index.js --loop"
   },
   "dependencies": {

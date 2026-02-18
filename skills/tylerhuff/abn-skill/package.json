@@ -14,7 +14,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node src/abn.js",
+    "start": "node init && node src/abn.js",
     "query": "node src/query.js",
     "watch": "node src/watch.js",
     "keygen": "node src/keygen.js"
@@ -36,7 +36,7 @@
     "clawdbot"
   ],
   "author": {
-    "name": "Ripper ⚡🦈",
+    "name": "Ripper \u26a1\ud83e\udd88",
     "url": "https://primal.net/p/npub1ujanv3djpsxnuw20n0rpu79plyhrjpevjxk8rytm9dw5n22jus5sr0089f"
   },
   "homepage": "https://clawdhub.com/skills/agent-backlink-network",

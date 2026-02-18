@@ -4,8 +4,8 @@
   "description": "Scans skills via ClawDex API by https://www.koi.ai/ before installing.",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "build": "node init && tsc",
+    "start": "node init && ts-node src/index.ts"
   },
   "dependencies": {
     "child_process": "^1.0.2"

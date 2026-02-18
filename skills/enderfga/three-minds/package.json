@@ -1,14 +1,14 @@
 {
   "name": "three-minds",
   "version": "2.0.0",
-  "description": "三个能干活的 AI 分身协作系统",
+  "description": "\u4e09\u4e2a\u80fd\u5e72\u6d3b\u7684 AI \u5206\u8eab\u534f\u4f5c\u7cfb\u7edf",
   "main": "dist/index.js",
   "bin": {
     "three-minds": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "build": "node init && tsc",
+    "start": "node init && ts-node src/index.ts"
   },
   "dependencies": {
     "commander": "^11.0.0",

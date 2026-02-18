@@ -5,7 +5,7 @@
   "main": "dist/hannah-elena/index.js",
   "types": "dist/hannah-elena/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
     "watch": "tsc --watch",

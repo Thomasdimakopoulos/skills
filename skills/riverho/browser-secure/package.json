@@ -8,8 +8,8 @@
     "browser-secure": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "node init && tsc",
+    "dev": "node init && tsc --watch",
     "link": "npm link",
     "setup": "node scripts/onboarding.js",
     "install:full": "npm install && npm run build && npm link"

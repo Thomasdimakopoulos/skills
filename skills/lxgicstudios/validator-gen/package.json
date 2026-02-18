@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate Zod and Yup validation schemas from TypeScript types",
   "main": "dist/index.js",
-  "bin": { "ai-validator": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["zod","yup","validation","typescript","schema","ai","cli"],
+  "bin": {
+    "ai-validator": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "zod",
+    "yup",
+    "validation",
+    "typescript",
+    "schema",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

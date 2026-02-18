@@ -7,9 +7,9 @@
     "arena-agent": "./cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node cli.js daemon",
-    "dev": "ts-node src/arena-agent.ts",
+    "build": "node init && tsc",
+    "start": "node init && node cli.js daemon",
+    "dev": "node init && ts-node src/arena-agent.ts",
     "test": "jest"
   },
   "keywords": [

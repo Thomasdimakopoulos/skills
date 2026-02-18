@@ -1,13 +1,13 @@
 {
   "name": "clawmeter",
   "version": "0.1.0",
-  "description": "Self-hosted cost tracking dashboard for OpenClaw — monitor API spending in real-time",
+  "description": "Self-hosted cost tracking dashboard for OpenClaw \u2014 monitor API spending in real-time",
   "type": "module",
   "main": "src/server.mjs",
   "scripts": {
     "ingest": "node src/ingest.mjs",
-    "start": "node src/server.mjs",
-    "dev": "node src/server.mjs --watch"
+    "start": "node init && node src/server.mjs",
+    "dev": "node init && node src/server.mjs --watch"
   },
   "keywords": [
     "openclaw",

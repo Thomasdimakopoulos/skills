@@ -15,8 +15,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts --clean",
-    "dev": "tsup src/index.ts --format esm --watch",
+    "build": "node init && tsup src/index.ts --format esm --dts --clean",
+    "dev": "node init && tsup src/index.ts --format esm --watch",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

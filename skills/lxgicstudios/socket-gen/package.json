@@ -3,9 +3,20 @@
   "version": "1.0.0",
   "description": "Generate WebSocket handlers with Socket.io",
   "main": "dist/index.js",
-  "bin": { "ai-socket": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["websocket","socket.io","realtime","events","ai","cli"],
+  "bin": {
+    "ai-socket": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "realtime",
+    "events",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

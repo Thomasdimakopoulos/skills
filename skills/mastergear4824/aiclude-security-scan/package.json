@@ -47,8 +47,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts",
-    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "build": "node init && tsup src/index.ts --format esm --dts",
+    "dev": "node init && tsup src/index.ts --format esm --dts --watch",
     "test": "vitest run",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run build"

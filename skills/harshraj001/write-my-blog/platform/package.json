@@ -4,9 +4,9 @@
   "private": true,
   "description": "AI-powered blogging platform with 10 premium themes",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "migrate": "tsx src/lib/db/migrate.ts"
   },

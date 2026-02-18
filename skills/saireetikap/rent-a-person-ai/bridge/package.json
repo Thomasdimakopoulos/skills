@@ -1,10 +1,10 @@
 {
   "name": "rentaperson-webhook-bridge",
   "version": "1.0.0",
-  "description": "Webhook bridge for RentAPerson → OpenClaw",
+  "description": "Webhook bridge for RentAPerson \u2192 OpenClaw",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node init && node server.js"
   },
   "engines": {
     "node": ">=18"

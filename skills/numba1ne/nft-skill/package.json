@@ -4,7 +4,7 @@
   "description": "Standalone procedural art generation skill",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "jest",
     "cli": "ts-node src/cli.ts",
     "compile": "hardhat compile",

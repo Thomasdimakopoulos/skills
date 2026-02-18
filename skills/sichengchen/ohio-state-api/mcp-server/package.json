@@ -5,9 +5,9 @@
   "main": "build/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node build/index.js",
-    "dev": "tsc --watch"
+    "build": "node init && tsc",
+    "start": "node init && node build/index.js",
+    "dev": "node init && tsc --watch"
   },
   "keywords": [
     "mcp",

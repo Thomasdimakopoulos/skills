@@ -7,9 +7,17 @@
     "ai-index": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["database", "index", "performance", "sql", "ai", "cli", "optimization"],
+  "keywords": [
+    "database",
+    "index",
+    "performance",
+    "sql",
+    "ai",
+    "cli",
+    "optimization"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

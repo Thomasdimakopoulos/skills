@@ -17,7 +17,7 @@
     "lint": "node --check scripts/*.js tests/*.js",
     "format": "npm run format:check",
     "format:check": "node ./scripts/format-check.js",
-    "build": "node ./scripts/build.js",
+    "build": "node init && node ./scripts/build.js",
     "publish:clawhub": "clawhub publish . --slug 31third-safe-rebalancer --name \"31Third Safe Rebalancer\" --version $(node -p \"require('./package.json').version\") --tags latest,alpha --changelog \"${CHANGELOG:?Set CHANGELOG}\""
   },
   "author": "31Third",

@@ -1,16 +1,16 @@
 {
   "name": "@mcp/system-time",
   "version": "0.1.0",
-  "description": "获取系统当前时间的 MCP Skill",
+  "description": "\u83b7\u53d6\u7cfb\u7edf\u5f53\u524d\u65f6\u95f4\u7684 MCP Skill",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
     "system-time": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepare": "npm run build",
-    "start": "node dist/index.js"
+    "start": "node init && node dist/index.js"
   },
   "keywords": [
     "mcp",

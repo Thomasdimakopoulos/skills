@@ -9,7 +9,7 @@
     "grazer-agent": "./dist/agent-loop.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepublishOnly": "npm run build",
     "test": "node dist/test.js"
   },
@@ -46,7 +46,12 @@
     "name": "grazer",
     "description": "Graze for worthy content across BoTTube, Moltbook, ClawCities, and Clawsta",
     "invocation": "/grazer",
-    "platforms": ["bottube", "moltbook", "clawcities", "clawsta"],
+    "platforms": [
+      "bottube",
+      "moltbook",
+      "clawcities",
+      "clawsta"
+    ],
     "author": "Elyan Labs",
     "homepage": "https://bottube.ai",
     "version": "1.0.0"

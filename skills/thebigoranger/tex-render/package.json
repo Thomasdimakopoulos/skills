@@ -8,7 +8,7 @@
   },
   "scripts": {
     "render": "node scripts/render.js",
-    "start": "node scripts/render.js",
+    "start": "node init && node scripts/render.js",
     "test": "node scripts/validate.js",
     "validate": "node scripts/validate.js"
   },

@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "fetch-api": "tsx scripts/fetch-api.ts",
     "execute-ultra": "tsx scripts/execute-ultra.ts",
     "wallet-sign": "tsx scripts/wallet-sign.ts",

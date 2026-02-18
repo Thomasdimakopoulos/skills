@@ -7,9 +7,17 @@
     "ai-swagger": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["swagger", "openapi", "express", "api", "ai", "cli", "documentation"],
+  "keywords": [
+    "swagger",
+    "openapi",
+    "express",
+    "api",
+    "ai",
+    "cli",
+    "documentation"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "setup": "node scripts/setup.js",
-    "start": "node scripts/start.js",
+    "start": "node init && node scripts/start.js",
     "tunnel": "node scripts/tunnel.js",
     "test": "node scripts/test.js"
   },

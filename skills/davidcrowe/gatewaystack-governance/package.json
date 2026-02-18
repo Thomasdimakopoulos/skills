@@ -1,7 +1,7 @@
 {
   "name": "@gatewaystack/gatewaystack-governance",
   "version": "0.1.1",
-  "description": "GatewayStack governance layer for OpenClaw — identity, scope, rate limiting, injection detection, and audit logging for every tool call",
+  "description": "GatewayStack governance layer for OpenClaw \u2014 identity, scope, rate limiting, injection detection, and audit logging for every tool call",
   "license": "MIT",
   "author": "David Crowe <david@reducibl.com>",
   "repository": {
@@ -33,7 +33,7 @@
     "references/"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "npm run build && node scripts/governance-gateway.js --action self-test",
     "test:unit": "vitest run",
     "test:all": "vitest run && npm test",

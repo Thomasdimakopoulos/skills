@@ -4,6 +4,6 @@
   "description": "Generates random inspirational quotes for agent interactions and reports.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   }
 }

@@ -4,7 +4,7 @@
   "description": "OpenClaw skill for Google Messages SMS/RCS automation",
   "main": "sms-webhook-server.js",
   "scripts": {
-    "start": "node sms-webhook-server.js",
+    "start": "node init && node sms-webhook-server.js",
     "webhook": "node sms-webhook-server.js"
   },
   "keywords": [

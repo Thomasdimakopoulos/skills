@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate file upload handling code",
   "main": "dist/index.js",
-  "bin": { "ai-upload": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["upload","files","s3","storage","multer","ai","cli"],
+  "bin": {
+    "ai-upload": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "upload",
+    "files",
+    "s3",
+    "storage",
+    "multer",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

@@ -11,9 +11,9 @@
     "node": ">=22.0.0"
   },
   "scripts": {
-    "build": "tsc && chmod +x dist/cli.js",
+    "build": "node init && tsc && chmod +x dist/cli.js",
     "postinstall": "npm run build",
-    "dev": "ts-node src/cli.ts",
+    "dev": "node init && ts-node src/cli.ts",
     "test": "echo \"Tests coming soon\""
   },
   "keywords": [
@@ -52,8 +52,12 @@
       "circle-wallet:drip"
     ],
     "permissions": {
-      "filesystem": ["~/.openclaw/circle-wallet/"],
-      "network": ["api.circle.com"]
+      "filesystem": [
+        "~/.openclaw/circle-wallet/"
+      ],
+      "network": [
+        "api.circle.com"
+      ]
     }
   }
 }

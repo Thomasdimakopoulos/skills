@@ -1,7 +1,7 @@
 {
   "name": "agentspend",
   "version": "0.1.9",
-  "description": "CLI for AgentSpend — manage cards and crypto wallets for AI agent payments",
+  "description": "CLI for AgentSpend \u2014 manage cards and crypto wallets for AI agent payments",
   "homepage": "https://github.com/jpbonch/agentspend",
   "license": "MIT",
   "repository": {
@@ -21,7 +21,7 @@
     "viem": "^2.0.0"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "typecheck": "tsc --noEmit"
   }
 }

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node tests/smoke.js",
-    "start": "node scripts/run.js"
+    "start": "node init && node scripts/run.js"
   },
   "dependencies": {
     "axios": "^1.6.0",

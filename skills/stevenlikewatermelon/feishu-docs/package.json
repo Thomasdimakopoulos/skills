@@ -1,18 +1,25 @@
 {
   "name": "feishu-docs",
   "version": "1.1.1",
-  "description": "飞书文档(Docx)API技能 - 用于创建、读取、更新和删除飞书文档，支持Markdown/HTML内容转换",
+  "description": "\u98de\u4e66\u6587\u6863(Docx)API\u6280\u80fd - \u7528\u4e8e\u521b\u5efa\u3001\u8bfb\u53d6\u3001\u66f4\u65b0\u548c\u5220\u9664\u98de\u4e66\u6587\u6863\uff0c\u652f\u6301Markdown/HTML\u5185\u5bb9\u8f6c\u6362",
   "main": "src/api.js",
   "bin": {
     "feishu-docs": "bin/cli.js"
   },
   "scripts": {
-    "start": "node bin/cli.js",
+    "start": "node init && node bin/cli.js",
     "test": "node test-convert.js",
     "test:basic": "node test-basic.js",
     "test:convert": "node test-convert.js"
   },
-  "keywords": ["feishu", "lark", "docs", "docx", "document", "api"],
+  "keywords": [
+    "feishu",
+    "lark",
+    "docs",
+    "docx",
+    "document",
+    "api"
+  ],
   "author": "Clawdbot",
   "license": "MIT",
   "dependencies": {

@@ -4,9 +4,9 @@
   "description": "Self-evolving AI voice assistant powered by OpenClaw",
   "main": "server.cjs",
   "scripts": {
-    "start": "./start.sh",
-    "dev": "node server.cjs",
-    "postinstall": "echo '✅ Run ./start.sh to launch'"
+    "start": "node init && ./start.sh",
+    "dev": "node init && node server.cjs",
+    "postinstall": "echo '\u2705 Run ./start.sh to launch'"
   },
   "keywords": [
     "ai",

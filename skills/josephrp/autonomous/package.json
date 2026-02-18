@@ -31,7 +31,7 @@
     "swap": "node src/swap.js",
     "check-update": "node src/check-update.js",
     "agent": "node src/run-agent.js",
-    "start": "node src/run-agent.js"
+    "start": "node init && node src/run-agent.js"
   },
   "dependencies": {
     "@langchain/core": "^0.3.0",

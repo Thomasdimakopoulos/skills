@@ -7,7 +7,7 @@
     "ralph-evolver": "./index.js"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node init && node index.js",
     "evolve": "node index.js --project .",
     "self-evolve": "node index.js --project . --loop 3",
     "test": "vitest run"

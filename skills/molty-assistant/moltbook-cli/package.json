@@ -8,11 +8,17 @@
   },
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts"
+    "build": "node init && tsc",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx src/index.ts"
   },
-  "keywords": ["moltbook", "ai", "agents", "cli", "social"],
+  "keywords": [
+    "moltbook",
+    "ai",
+    "agents",
+    "cli",
+    "social"
+  ],
   "author": "MoltyChief",
   "license": "MIT",
   "dependencies": {

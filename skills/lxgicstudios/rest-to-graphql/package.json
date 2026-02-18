@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Convert REST API routes to a GraphQL schema",
   "main": "dist/index.js",
-  "bin": { "ai-rest-to-graphql": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["graphql","rest","api","migration","schema","ai","cli"],
+  "bin": {
+    "ai-rest-to-graphql": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "graphql",
+    "rest",
+    "api",
+    "migration",
+    "schema",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

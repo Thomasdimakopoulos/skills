@@ -8,16 +8,21 @@
     "clawchat": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/cli.js",
-    "dev": "tsx src/cli.ts",
+    "build": "node init && tsc",
+    "start": "node init && node dist/cli.js",
+    "dev": "node init && tsx src/cli.ts",
     "test": "vitest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexrudloff/clawchat.git"
   },
-  "keywords": ["p2p", "chat", "openclaw", "cli"],
+  "keywords": [
+    "p2p",
+    "chat",
+    "openclaw",
+    "cli"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

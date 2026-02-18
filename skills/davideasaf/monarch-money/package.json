@@ -11,9 +11,9 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w",
-    "start": "node dist/cli/index.js",
+    "build": "node init && tsc",
+    "dev": "node init && tsc -w",
+    "start": "node init && node dist/cli/index.js",
     "test": "jest --testPathIgnorePatterns=integration",
     "test:e2e": "jest tests/e2e --runInBand",
     "test:e2e:readonly": "ALLOW_WRITE_TESTS=0 jest tests/e2e --runInBand",

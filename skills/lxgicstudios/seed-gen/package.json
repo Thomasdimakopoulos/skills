@@ -7,9 +7,17 @@
     "ai-seed": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["seed", "database", "prisma", "mock-data", "ai", "cli", "faker"],
+  "keywords": [
+    "seed",
+    "database",
+    "prisma",
+    "mock-data",
+    "ai",
+    "cli",
+    "faker"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

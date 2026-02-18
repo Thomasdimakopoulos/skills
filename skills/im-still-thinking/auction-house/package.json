@@ -1,7 +1,7 @@
 {
   "name": "auction-house-mcp",
   "version": "0.1.0",
-  "description": "MCP server for Auction House – create auctions and place bids from any AI agent",
+  "description": "MCP server for Auction House \u2013 create auctions and place bids from any AI agent",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
@@ -14,9 +14,9 @@
     }
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
-    "start": "node dist/index.js"
+    "build": "node init && tsc",
+    "dev": "node init && tsc --watch",
+    "start": "node init && node dist/index.js"
   },
   "keywords": [
     "mcp",

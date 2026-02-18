@@ -9,8 +9,8 @@
   "scripts": {
     "test": "node test/ledger.test.js",
     "cli": "node src/cli.js",
-    "start": "node src/cli.js init",
-    "postinstall": "echo '\n✅ AgentLedger installed successfully!\n📁 Run: node src/cli.js init\n📖 See: SKILL.md for usage instructions\n'"
+    "start": "node init && node src/cli.js init",
+    "postinstall": "echo '\n\u2705 AgentLedger installed successfully!\n\ud83d\udcc1 Run: node src/cli.js init\n\ud83d\udcd6 See: SKILL.md for usage instructions\n'"
   },
   "keywords": [
     "openclaw",
@@ -34,18 +34,28 @@
   "openclaw": {
     "type": "skill",
     "category": "productivity",
-    "tags": ["accounting", "finance", "tracking", "budget", "privacy", "multi-currency"],
+    "tags": [
+      "accounting",
+      "finance",
+      "tracking",
+      "budget",
+      "privacy",
+      "multi-currency"
+    ],
     "requirements": {
       "node": ">=16.0.0"
     },
     "permissions": {
-      "filesystem": ["read", "write"],
+      "filesystem": [
+        "read",
+        "write"
+      ],
       "workspace": true
     },
     "features": [
       "Transaction logging with full context",
       "Multi-currency support",
-      "Budget tracking and alerts", 
+      "Budget tracking and alerts",
       "Privacy.com integration",
       "Natural language queries",
       "Comprehensive reporting",
@@ -64,7 +74,7 @@
   "files": [
     "src/",
     "test/",
-    "SKILL.md", 
+    "SKILL.md",
     "README.md",
     ".gitignore"
   ]

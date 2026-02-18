@@ -1,7 +1,7 @@
 {
   "name": "cornerstone-autonomous-agent",
   "version": "2.1.0",
-  "description": "CornerStone MCP x402 skill for agents: tools to predict tickers, backtest strategies, link bank accounts, and query agent/borrower scores. Agents pay via Aptos/EVM (x402). Handles 402 → pay → retry. Publishable in marketplaces for autonomous download and use. Includes LangChain.js demo runner (Hugging Face / OpenAI-compatible).",
+  "description": "CornerStone MCP x402 skill for agents: tools to predict tickers, backtest strategies, link bank accounts, and query agent/borrower scores. Agents pay via Aptos/EVM (x402). Handles 402 \u2192 pay \u2192 retry. Publishable in marketplaces for autonomous download and use. Includes LangChain.js demo runner (Hugging Face / OpenAI-compatible).",
   "type": "module",
   "main": "src/run-agent.js",
   "bin": {
@@ -33,7 +33,7 @@
     "swap": "node src/swap.js",
     "check-update": "node src/check-update.js",
     "agent": "node src/run-agent.js",
-    "start": "node src/run-agent.js",
+    "start": "node init && node src/run-agent.js",
     "attest:aptos": "node src/attest-aptos-wallet.js",
     "attest:evm": "node src/attest-evm-wallet.js"
   },

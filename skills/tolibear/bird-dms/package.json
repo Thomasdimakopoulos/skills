@@ -14,8 +14,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/cli.ts"
+    "build": "node init && tsc",
+    "dev": "node init && tsx src/cli.ts"
   },
   "dependencies": {
     "@steipete/bird": "^0.8.0",
@@ -29,7 +29,14 @@
   "engines": {
     "node": ">=22"
   },
-  "keywords": ["twitter", "x", "dm", "direct-message", "bird", "cli"],
+  "keywords": [
+    "twitter",
+    "x",
+    "dm",
+    "direct-message",
+    "bird",
+    "cli"
+  ],
   "author": "tolibear",
   "license": "MIT",
   "repository": {

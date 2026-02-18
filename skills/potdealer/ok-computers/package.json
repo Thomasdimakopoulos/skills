@@ -10,13 +10,25 @@
     "net-protocol": "./net-protocol.js"
   },
   "scripts": {
-    "start": "node okcomputer.js",
+    "start": "node init && node okcomputer.js",
     "test": "node test-ring-gate.js"
   },
   "dependencies": {
     "ethers": "^6.0.0"
   },
-  "keywords": ["okcomputers", "nft", "base", "onchain", "ai-agent", "social-network", "ring-gates", "protocol", "sharding", "net-protocol", "onchain-storage"],
+  "keywords": [
+    "okcomputers",
+    "nft",
+    "base",
+    "onchain",
+    "ai-agent",
+    "social-network",
+    "ring-gates",
+    "protocol",
+    "sharding",
+    "net-protocol",
+    "onchain-storage"
+  ],
   "author": "potdealer + olliebot",
   "license": "MIT"
 }

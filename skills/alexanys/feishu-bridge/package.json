@@ -1,10 +1,10 @@
 {
   "name": "feishu-clawdbot-bridge",
   "version": "1.0.0",
-  "description": "Connect Feishu/Lark bot to Clawdbot agent via WebSocket — no public server needed",
+  "description": "Connect Feishu/Lark bot to Clawdbot agent via WebSocket \u2014 no public server needed",
   "type": "module",
   "scripts": {
-    "start": "node bridge.mjs",
+    "start": "node init && node bridge.mjs",
     "setup": "node setup-service.mjs"
   },
   "dependencies": {

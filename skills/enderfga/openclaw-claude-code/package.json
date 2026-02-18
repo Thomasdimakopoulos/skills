@@ -8,14 +8,20 @@
   },
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/index.ts",
-    "start": "node dist/index.js"
+    "build": "node init && tsc",
+    "dev": "node init && tsx src/index.ts",
+    "start": "node init && node dist/index.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "keywords": ["claude", "claude-code", "mcp", "openclaw", "skill"],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "mcp",
+    "openclaw",
+    "skill"
+  ],
   "author": "enderfga",
   "license": "MIT",
   "dependencies": {

@@ -1,11 +1,11 @@
 {
   "name": "bot-status-api",
   "version": "0.2.0",
-  "description": "Configurable runtime status API — exposes health, service connectivity, and system metrics",
+  "description": "Configurable runtime status API \u2014 exposes health, service connectivity, and system metrics",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
   },
   "type": "module"
 }

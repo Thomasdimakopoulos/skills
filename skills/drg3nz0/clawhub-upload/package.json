@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "rm -rf dist node_modules package-lock.json",
     "prepublishOnly": "npm run build"
   },
@@ -41,7 +41,7 @@
   "openclaw": {
     "displayName": "MaclawPro Security",
     "category": "security",
-    "icon": "🛡️",
+    "icon": "\ud83d\udee1\ufe0f",
     "commands": [
       "camera-status",
       "microphone-status",

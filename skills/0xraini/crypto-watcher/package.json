@@ -8,9 +8,16 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node src/cli.js"
+    "start": "node init && node src/cli.js"
   },
-  "keywords": ["crypto", "defi", "wallet", "monitor", "alerts", "ethereum"],
+  "keywords": [
+    "crypto",
+    "defi",
+    "wallet",
+    "monitor",
+    "alerts",
+    "ethereum"
+  ],
   "author": "Elonito",
   "license": "MIT",
   "dependencies": {

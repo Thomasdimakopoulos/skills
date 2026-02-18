@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate Cloudflare Workers configuration and code",
   "main": "dist/index.js",
-  "bin": { "ai-cloudflare": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["cloudflare","workers","edge","serverless","wrangler","ai","cli"],
+  "bin": {
+    "ai-cloudflare": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "edge",
+    "serverless",
+    "wrangler",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

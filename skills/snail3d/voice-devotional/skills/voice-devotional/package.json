@@ -10,7 +10,7 @@
     "test": "jest --coverage",
     "test:watch": "jest --watch",
     "test:unit": "jest tests/",
-    "dev": "node scripts/cli.js",
+    "dev": "node init && node scripts/cli.js",
     "lint": "eslint scripts/ config/",
     "example": "node examples/basic.js",
     "example:batch": "node examples/batch.js"

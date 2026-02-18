@@ -4,7 +4,7 @@
   "description": "A high-performance bridge between LINE Messaging API and Clawdbot agent, featuring identity awareness and secure external configuration.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node init && node index.js"
   },
   "keywords": [
     "line",
@@ -12,9 +12,9 @@
     "bridge",
     "clawdbot"
   ],
-  "author": "蝦蝦 (Shrimp)",
+  "author": "\u8766\u8766 (Shrimp)",
   "contributors": [
-    "景揚 <stu24801@gmail.com>"
+    "\u666f\u63da <stu24801@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {

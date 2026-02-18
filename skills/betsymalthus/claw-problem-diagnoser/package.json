@@ -1,12 +1,12 @@
 {
   "name": "claw-problem-diagnoser",
   "version": "0.1.1",
-  "description": "OpenClaw问题诊断器 - 自动诊断和修复常见的OpenClaw技术问题",
+  "description": "OpenClaw\u95ee\u9898\u8bca\u65ad\u5668 - \u81ea\u52a8\u8bca\u65ad\u548c\u4fee\u590d\u5e38\u89c1\u7684OpenClaw\u6280\u672f\u95ee\u9898",
   "main": "claw_problem_diagnoser.py",
   "scripts": {
     "test": "python test_problem_diagnoser.py",
     "diagnose": "python -m problem_diagnoser.cli",
-    "dev": "python -m problem_diagnoser.cli --test"
+    "dev": "node init && python -m problem_diagnoser.cli --test"
   },
   "author": "Claw & Boss",
   "license": "MIT",
@@ -36,16 +36,38 @@
     "skillType": "utility",
     "compatibility": "openclaw>=1.0.0",
     "category": "productivity",
-    "tags": ["diagnose", "troubleshoot", "debug", "config", "dependencies", "essential"],
+    "tags": [
+      "diagnose",
+      "troubleshoot",
+      "debug",
+      "config",
+      "dependencies",
+      "essential"
+    ],
     "price": {
       "free": true,
       "pro": 14.99,
       "enterprise": 99
     },
     "features": {
-      "free": ["basic-diagnosis", "manual-fixes", "simple-report"],
-      "pro": ["advanced-diagnosis", "auto-fix", "performance-analysis", "priority-support"],
-      "enterprise": ["team-collaboration", "api-access", "custom-rules", "sla", "dedicated-support"]
+      "free": [
+        "basic-diagnosis",
+        "manual-fixes",
+        "simple-report"
+      ],
+      "pro": [
+        "advanced-diagnosis",
+        "auto-fix",
+        "performance-analysis",
+        "priority-support"
+      ],
+      "enterprise": [
+        "team-collaboration",
+        "api-access",
+        "custom-rules",
+        "sla",
+        "dedicated-support"
+      ]
     }
   },
   "dependencies": {

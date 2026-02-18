@@ -1,11 +1,11 @@
 {
   "name": "self-evolving-skill",
   "version": "1.0.2",
-  "description": "元认知自学习系统 - 基于预测编码和价值驱动的Skill自动演化",
+  "description": "\u5143\u8ba4\u77e5\u81ea\u5b66\u4e60\u7cfb\u7edf - \u57fa\u4e8e\u9884\u6d4b\u7f16\u7801\u548c\u4ef7\u503c\u9a71\u52a8\u7684Skill\u81ea\u52a8\u6f14\u5316",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "watch": "tsc --watch",
     "test": "jest"
   },

@@ -1,14 +1,14 @@
 {
   "name": "safe-multisig-skill",
   "version": "2.1.0",
-  "description": "OpenClaw skill for operating Safe multisig wallets — propose, confirm, and execute transactions across multiple chains",
+  "description": "OpenClaw skill for operating Safe multisig wallets \u2014 propose, confirm, and execute transactions across multiple chains",
   "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "typecheck": "tsc --noEmit --strict",
     "test": "vitest run",
     "test:smoke": "bash tests/smoke.sh"

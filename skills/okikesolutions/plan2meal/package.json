@@ -4,13 +4,19 @@
   "description": "ClawdHub skill for Plan2Meal recipe and grocery list management",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "node init && tsc",
+    "dev": "node init && tsc --watch",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["clawdhub", "skill", "recipe", "meal-planner", "grocery"],
+  "keywords": [
+    "clawdhub",
+    "skill",
+    "recipe",
+    "meal-planner",
+    "grocery"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

@@ -9,8 +9,8 @@
     "data-importer": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/cli.js",
+    "build": "node init && tsc",
+    "start": "node init && node dist/cli.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "prepublishOnly": "npm run build"
   },

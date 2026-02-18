@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate monitoring and alerting configuration",
   "main": "dist/index.js",
-  "bin": { "ai-monitoring": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["monitoring","alerting","observability","prometheus","grafana","ai","cli"],
+  "bin": {
+    "ai-monitoring": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "monitoring",
+    "alerting",
+    "observability",
+    "prometheus",
+    "grafana",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

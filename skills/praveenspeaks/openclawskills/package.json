@@ -9,7 +9,7 @@
     "cinematic-script": "dist/bin/cinematic-script.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "jest",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",

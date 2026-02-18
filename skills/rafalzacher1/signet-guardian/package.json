@@ -4,7 +4,7 @@
   "description": "Transaction security skill for OpenClaw",
   "type": "module",
   "scripts": {
-    "build": "tsc scripts/signet-cli.ts --outDir dist --module esnext --target es2020 --moduleResolution node"
+    "build": "node init && tsc scripts/signet-cli.ts --outDir dist --module esnext --target es2020 --moduleResolution node"
   },
   "dependencies": {
     "prompts": "^2.4.2"

@@ -7,9 +7,16 @@
     "ai-audit-fix": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["npm", "audit", "security", "ai", "fix", "vulnerability"],
+  "keywords": [
+    "npm",
+    "audit",
+    "security",
+    "ai",
+    "fix",
+    "vulnerability"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

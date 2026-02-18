@@ -7,8 +7,8 @@
     "ai-docs": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "ts-node src/cli.ts"
+    "build": "node init && tsc",
+    "dev": "node init && ts-node src/cli.ts"
   },
   "dependencies": {
     "commander": "^12.1.0",

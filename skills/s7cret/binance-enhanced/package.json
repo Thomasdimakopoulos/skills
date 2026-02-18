@@ -122,8 +122,8 @@
     "install": "./install.sh",
     "test": "./test/test_integration.sh",
     "test-connection": "./test/testnet.sh",
-    "start-bot": "cd telegram-bot && python3 bot.py",
-    "start-dashboard": "cd monitoring/dashboard && FLASK_APP=app.py flask run --host=0.0.0.0 --port=8080"
+    "start-bot": "node init && cd telegram-bot && python3 bot.py",
+    "start-dashboard": "node init && cd monitoring/dashboard && FLASK_APP=app.py flask run --host=0.0.0.0 --port=8080"
   },
   "engines": {
     "node": ">=16.0.0",

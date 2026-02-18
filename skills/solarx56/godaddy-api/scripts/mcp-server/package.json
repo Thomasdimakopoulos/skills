@@ -8,8 +8,8 @@
     "godaddy-mcp-server": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "start": "node dist/index.js"
+    "build": "node init && tsc -p tsconfig.json",
+    "start": "node init && node dist/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.4",

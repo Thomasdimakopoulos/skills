@@ -9,10 +9,10 @@
     "mamo": "dist/index.js"
   },
   "scripts": {
-    "build": "tsc",
-    "build:watch": "tsc --watch",
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts",
+    "build": "node init && tsc",
+    "build:watch": "node init && tsc --watch",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx src/index.ts",
     "mamo": "tsx src/index.ts",
     "mamo:legacy": "node scripts/mamo.mjs",
     "test": "vitest run",

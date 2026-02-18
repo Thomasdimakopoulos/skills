@@ -3,9 +3,30 @@
   "version": "1.0.0",
   "description": "Generate optimized Vercel configuration",
   "main": "dist/index.js",
-  "bin": { "ai-vercel-config": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["You are a Vercel deployment expert. Analyze the current project directory and generate an optimized vercel.json configuration. Include: framework detection"," build settings"," environment variables template"," redirects"," rewrites"," headers (security"," caching"," CORS)"," regions"," cron jobs if applicable"," and edge middleware suggestions. Explain each setting.|vercel","deployment","config","serverless","ai","cli"],
+  "bin": {
+    "ai-vercel-config": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "You are a Vercel deployment expert. Analyze the current project directory and generate an optimized vercel.json configuration. Include: framework detection",
+    " build settings",
+    " environment variables template",
+    " redirects",
+    " rewrites",
+    " headers (security",
+    " caching",
+    " CORS)",
+    " regions",
+    " cron jobs if applicable",
+    " and edge middleware suggestions. Explain each setting.|vercel",
+    "deployment",
+    "config",
+    "serverless",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

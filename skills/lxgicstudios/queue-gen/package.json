@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "Generate BullMQ job queue setup and workers",
   "main": "dist/index.js",
-  "bin": { "ai-queue": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["bullmq","queue","jobs","workers","background","ai","cli"],
+  "bin": {
+    "ai-queue": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "node init && tsc"
+  },
+  "keywords": [
+    "bullmq",
+    "queue",
+    "jobs",
+    "workers",
+    "background",
+    "ai",
+    "cli"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

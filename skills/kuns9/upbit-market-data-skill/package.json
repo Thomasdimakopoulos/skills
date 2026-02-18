@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "skill.js",
   "scripts": {
-    "start": "node skill.js"
+    "start": "node init && node skill.js"
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2",

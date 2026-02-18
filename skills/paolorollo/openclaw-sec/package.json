@@ -8,9 +8,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/cli.ts",
-    "start": "node dist/cli.js",
+    "build": "node init && tsc",
+    "dev": "node init && tsx src/cli.ts",
+    "start": "node init && node dist/cli.js",
     "test": "jest",
     "pentest": "tsx tests/zeroleaks-pentest.ts",
     "pentest:json": "tsx tests/zeroleaks-pentest.ts --json",

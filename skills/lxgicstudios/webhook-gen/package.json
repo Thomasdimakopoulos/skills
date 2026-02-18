@@ -7,9 +7,17 @@
     "ai-webhook": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["webhook", "handler", "retry", "ai", "cli", "stripe", "api"],
+  "keywords": [
+    "webhook",
+    "handler",
+    "retry",
+    "ai",
+    "cli",
+    "stripe",
+    "api"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

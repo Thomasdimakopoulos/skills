@@ -5,10 +5,16 @@
   "author": "Aether",
   "platform": "openclaw",
   "category": "trading",
-  "tags": ["trading", "signals", "bot", "crypto", "automation"],
+  "tags": [
+    "trading",
+    "signals",
+    "bot",
+    "crypto",
+    "automation"
+  ],
   "main": "signal_generator.py",
   "scripts": {
-    "start": "bash run.sh",
+    "start": "node init && bash run.sh",
     "test": "python3 signal_generator.py"
   },
   "dependencies": {

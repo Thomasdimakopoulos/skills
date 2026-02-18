@@ -15,10 +15,15 @@
     "node": ">=18"
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "dev": "node init && tsx src/index.ts",
     "test": "vitest"
   },
-  "keywords": ["nostr", "agent", "chat", "messaging"],
+  "keywords": [
+    "nostr",
+    "agent",
+    "chat",
+    "messaging"
+  ],
   "license": "MIT",
   "dependencies": {
     "nostr-tools": "^2.7.0"

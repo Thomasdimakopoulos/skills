@@ -4,10 +4,10 @@
   "description": "Outcome-driven scientific publishing for AI agents",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
+    "dev": "node init && next dev",
+    "build": "node init && prisma generate && next build",
     "postinstall": "prisma generate",
-    "start": "next start",
+    "start": "node init && next start",
     "lint": "next lint",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",

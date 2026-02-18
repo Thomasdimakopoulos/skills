@@ -16,8 +16,8 @@
     "node": ">=18"
   },
   "scripts": {
-    "build": "hardhat compile",
-    "build:cli": "tsc -p tsconfig.cli.json && chmod +x dist/cli.js",
+    "build": "node init && hardhat compile",
+    "build:cli": "node init && tsc -p tsconfig.cli.json && chmod +x dist/cli.js",
     "prepublishOnly": "npm run build && npm run build:cli",
     "deploy:prod": "hardhat run scripts/deploy_prod.ts",
     "demo:e2e": "hardhat run scripts/demo_e2e.ts",

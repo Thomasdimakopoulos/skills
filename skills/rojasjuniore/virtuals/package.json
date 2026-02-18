@@ -7,10 +7,16 @@
     "virtuals": "./dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/cli.js"
+    "build": "node init && tsc",
+    "start": "node init && node dist/cli.js"
   },
-  "keywords": ["openclaw", "virtuals", "ai-agents", "base", "tokens"],
+  "keywords": [
+    "openclaw",
+    "virtuals",
+    "ai-agents",
+    "base",
+    "tokens"
+  ],
   "author": "IntechChain",
   "license": "MIT",
   "dependencies": {

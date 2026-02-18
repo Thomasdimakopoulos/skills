@@ -7,9 +7,17 @@
     "ai-theme": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["theme", "design-system", "colors", "ai", "cli", "tailwind", "css-variables"],
+  "keywords": [
+    "theme",
+    "design-system",
+    "colors",
+    "ai",
+    "cli",
+    "tailwind",
+    "css-variables"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

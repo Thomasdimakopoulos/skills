@@ -7,9 +7,16 @@
     "ai-error-handler": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
-  "keywords": ["error-handling", "middleware", "express", "ai", "cli", "api"],
+  "keywords": [
+    "error-handling",
+    "middleware",
+    "express",
+    "ai",
+    "cli",
+    "api"
+  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",

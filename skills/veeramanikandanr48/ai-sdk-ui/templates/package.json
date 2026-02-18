@@ -4,9 +4,9 @@
   "private": true,
   "description": "AI SDK UI application with React hooks for chat, completion, and streaming",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },

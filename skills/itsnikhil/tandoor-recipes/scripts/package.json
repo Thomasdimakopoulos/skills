@@ -8,8 +8,8 @@
     "tandoor": "./build/tandoor.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx --env-file=src/.env src/tandoor.ts",
+    "build": "node init && tsc",
+    "dev": "node init && tsx --env-file=src/.env src/tandoor.ts",
     "clean": "rm -rf build"
   },
   "dependencies": {

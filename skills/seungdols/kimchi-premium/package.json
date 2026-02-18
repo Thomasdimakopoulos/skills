@@ -4,7 +4,7 @@
   "description": "Calculate Bitcoin Kimchi Premium (Upbit vs Binance)",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node init && node index.js",
     "test": "node index.js"
   },
   "keywords": [

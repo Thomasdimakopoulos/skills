@@ -7,7 +7,7 @@
     "sign": "node scripts/sign-siwe.mjs",
     "balance": "node scripts/check-balance.mjs",
     "generate": "node scripts/x402-generate.mjs",
-    "build:tar": "node scripts/build-tar.mjs"
+    "build:tar": "node init && node scripts/build-tar.mjs"
   },
   "dependencies": {
     "@x402/evm": "^2.2.0",

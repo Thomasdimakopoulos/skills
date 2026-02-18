@@ -4,10 +4,10 @@
   "description": "Spatially-routed LLM inference gateway for AI agents on Base",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc && npm run build:css",
-    "build:css": "npx tailwindcss -i src/styles/input.css -o public/assets/tailwind.css --minify",
-    "start": "node dist/index.js",
-    "dev": "tsx watch src/index.ts",
+    "build": "node init && tsc && npm run build:css",
+    "build:css": "node init && npx tailwindcss -i src/styles/input.css -o public/assets/tailwind.css --minify",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx watch src/index.ts",
     "oracle:test": "tsx src/services/energy-oracle.ts"
   },
   "dependencies": {

@@ -7,7 +7,7 @@
     "ai-release-notes": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "keywords": [
     "release-notes",

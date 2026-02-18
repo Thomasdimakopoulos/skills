@@ -9,13 +9,13 @@
     "telebiz-monitor": "dist/monitor.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "relay": "node dist/relay.js",
     "mcp": "node dist/mcp-server.js",
     "health": "node dist/health.js",
     "monitor": "node dist/monitor.js",
-    "dev:relay": "tsx src/relay.ts",
-    "dev:mcp": "tsx src/mcp-server.ts",
+    "dev:relay": "node init && tsx src/relay.ts",
+    "dev:mcp": "node init && tsx src/mcp-server.ts",
     "test": "npm run health"
   },
   "dependencies": {

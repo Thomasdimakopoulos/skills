@@ -7,8 +7,8 @@
     "a2a-agent-signup": "./index.js"
   },
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "mkdir -p ~/bin && ln -sf \"$PWD/index.js\" ~/bin/a2a-agent-signup && chmod +x \"$PWD/index.js\" && echo \"✓ a2a-agent-signup linked to ~/bin\""
+    "start": "node init && node index.js",
+    "postinstall": "mkdir -p ~/bin && ln -sf \"$PWD/index.js\" ~/bin/a2a-agent-signup && chmod +x \"$PWD/index.js\" && echo \"\u2713 a2a-agent-signup linked to ~/bin\""
   },
   "dependencies": {
     "enquirer": "^2.4.1",

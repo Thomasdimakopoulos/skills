@@ -4,8 +4,8 @@
   "description": "A clean, usable Pomodoro timer web app",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve .",
-    "dev": "npx live-server --port=3000",
+    "start": "node init && npx serve .",
+    "dev": "node init && npx live-server --port=3000",
     "deploy": "gh-pages -d ."
   },
   "repository": {

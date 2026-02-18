@@ -7,7 +7,7 @@
     "ai-k8s": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "keywords": [
     "kubernetes",

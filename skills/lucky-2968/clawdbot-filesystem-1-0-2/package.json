@@ -7,7 +7,7 @@
     "filesystem": "./filesystem"
   },
   "scripts": {
-    "start": "node filesystem",
+    "start": "node init && node filesystem",
     "test": "node filesystem help",
     "install-global": "npm link",
     "uninstall-global": "npm unlink"
@@ -37,7 +37,11 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "os": ["darwin", "linux", "win32"],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
   "preferGlobal": true,
   "files": [
     "filesystem",
@@ -48,10 +52,12 @@
   ],
   "clawdbot": {
     "skill": true,
-    "emoji": "📁",
+    "emoji": "\ud83d\udcc1",
     "category": "System Tools",
     "requires": {
-      "bins": ["node"]
+      "bins": [
+        "node"
+      ]
     },
     "permissions": {
       "filesystem": "read-write",

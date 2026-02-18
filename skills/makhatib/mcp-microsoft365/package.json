@@ -5,11 +5,17 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "tsx src/index.ts"
+    "build": "node init && tsc",
+    "start": "node init && node dist/index.js",
+    "dev": "node init && tsx src/index.ts"
   },
-  "keywords": ["mcp", "microsoft365", "outlook", "teams", "onedrive"],
+  "keywords": [
+    "mcp",
+    "microsoft365",
+    "outlook",
+    "teams",
+    "onedrive"
+  ],
   "author": "Mahmoud Alkhatib",
   "license": "MIT",
   "dependencies": {

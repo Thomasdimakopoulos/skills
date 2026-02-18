@@ -5,7 +5,7 @@
   "type": "module",
   "main": "scripts/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "wallet:create": "npx tsx scripts/wallet.ts create",
     "wallet:list": "npx tsx scripts/wallet.ts list",
     "wallet:balance": "npx tsx scripts/wallet.ts balance",

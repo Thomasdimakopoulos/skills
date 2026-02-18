@@ -15,8 +15,8 @@
     "CHANGELOG.md"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "dev": "node --loader ts-node/esm src/index.ts",
+    "build": "node init && tsc -p tsconfig.json",
+    "dev": "node init && node --loader ts-node/esm src/index.ts",
     "test:smoke": "node dist/index.js evaluate --input examples/http-allow.json",
     "prepack": "npm run build"
   },

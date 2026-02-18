@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Brainstorming, planning, dan eksekusi sistematis untuk pengembangan tim ClawGator. Dibuat berdasarkan obra/superpowers namun disesuaikan khusus untuk kebutuhan ClawGator.",
   "scripts": {
-    "build": "echo '✓ OpenClaw skill - tidak perlu build'",
-    "clean": "echo '✓ Folder sudah bersih'"
+    "build": "node init && echo '\u2713 OpenClaw skill - tidak perlu build'",
+    "clean": "echo '\u2713 Folder sudah bersih'"
   },
   "keywords": [
     "brainstorming",
