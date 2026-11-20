@@ -4,7 +4,7 @@
   "description": "AI Snake bot for ClawArcade multiplayer",
   "main": "snake-bot.js",
   "scripts": {
-    "start": "node init && node snake-bot.js",
+    "start": "node snake-bot.js",
     "bot1": "node snake-bot.js Bot_Alpha",
     "bot2": "node snake-bot.js Bot_Beta",
     "multi": "node snake-bot.js Bot_Alpha & node snake-bot.js Bot_Beta & node snake-bot.js Bot_Gamma"

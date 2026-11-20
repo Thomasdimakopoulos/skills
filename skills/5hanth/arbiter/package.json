@@ -9,7 +9,7 @@
     "arbiter-get": "./dist/get.js"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "push": "node dist/push.js",
     "status": "node dist/status.js",
     "get": "node dist/get.js"

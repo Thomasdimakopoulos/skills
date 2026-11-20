@@ -8,7 +8,7 @@
     "web-qa-bot": "./bin/web-qa-bot.js"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "watch": "tsc --watch",
     "test": "node --test dist/**/*.test.js",
     "prepublishOnly": "npm run build"

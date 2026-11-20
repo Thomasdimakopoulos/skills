@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./scripts/index.ts",
   "scripts": {
-    "start": "node init && tsx scripts/index.ts",
+    "start": "tsx scripts/index.ts",
     "search": "tsx scripts/index.ts search_agents",
     "vector-search": "tsx scripts/index.ts vector_search",
     "stats": "tsx scripts/index.ts get_stats",

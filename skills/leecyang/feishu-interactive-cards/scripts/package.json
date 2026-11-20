@@ -4,7 +4,7 @@
     "@larksuiteoapi/node-sdk": "^1.32.0"
   },
   "scripts": {
-    "start": "node init && node card-callback-server.js",
+    "start": "node card-callback-server.js",
     "send-test": "node send-test-card.js",
     "send-survey": "node send-survey-card.js",
     "send-todo": "node send-todo-card.js",

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "python test_security_scanner.py",
     "scan": "python -m security_scanner.cli",
-    "dev": "node init && python -m security_scanner.cli --skill ."
+    "dev": "python -m security_scanner.cli --skill ."
   },
   "author": "Claw & Boss",
   "license": "MIT",

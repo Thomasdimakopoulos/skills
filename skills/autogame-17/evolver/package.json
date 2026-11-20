@@ -15,8 +15,8 @@
   "author": "OpenClaw",
   "license": "MIT",
   "scripts": {
-    "start": "node init && node index.js",
-    "run": "node init && node index.js run",
+    "start": "node index.js",
+    "run": "node index.js run",
     "solidify": "node index.js solidify",
     "a2a:export": "node scripts/a2a_export.js",
     "a2a:ingest": "node scripts/a2a_ingest.js",

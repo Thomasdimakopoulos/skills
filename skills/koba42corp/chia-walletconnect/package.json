@@ -7,9 +7,9 @@
     "chia-wallet": "./cli.js"
   },
   "scripts": {
-    "start": "node init && node server/index.js",
+    "start": "node server/index.js",
     "test": "node cli.js --help",
-    "dev": "node init && node server/index.js --dev"
+    "dev": "node server/index.js --dev"
   },
   "keywords": [
     "chia",

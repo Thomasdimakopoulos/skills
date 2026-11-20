@@ -4,7 +4,7 @@
   "description": "Webhook bridge for RentAPerson \u2192 OpenClaw",
   "main": "server.js",
   "scripts": {
-    "start": "node init && node server.js"
+    "start": "node server.js"
   },
   "engines": {
     "node": ">=18"

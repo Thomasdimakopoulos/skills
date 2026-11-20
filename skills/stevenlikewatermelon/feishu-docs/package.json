@@ -7,7 +7,7 @@
     "feishu-docs": "bin/cli.js"
   },
   "scripts": {
-    "start": "node init && node bin/cli.js",
+    "start": "node bin/cli.js",
     "test": "node test-convert.js",
     "test:basic": "node test-basic.js",
     "test:convert": "node test-convert.js"

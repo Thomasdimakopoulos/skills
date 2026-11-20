@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "setup": "tsx scripts/setup.ts",
-    "dev": "node init && tsx watch src/dev.ts",
-    "start": "node init && tsx src/dev.ts",
-    "build": "node init && tsc"
+    "dev": "tsx watch src/dev.ts",
+    "start": "tsx src/dev.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^17.2.3",

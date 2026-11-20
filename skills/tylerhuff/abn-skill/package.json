@@ -14,7 +14,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node init && node src/abn.js",
+    "start": "node src/abn.js",
     "query": "node src/query.js",
     "watch": "node src/watch.js",
     "keygen": "node src/keygen.js"

@@ -4,8 +4,8 @@
   "description": "OpenClaw Menu Bar App - Quick chat access from macOS menu bar",
   "main": "main.js",
   "scripts": {
-    "start": "node init && electron .",
-    "build": "node init && electron-builder"
+    "start": "electron .",
+    "build": "electron-builder"
   },
   "keywords": [
     "openclaw",

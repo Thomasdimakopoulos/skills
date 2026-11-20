@@ -10,7 +10,7 @@
     "@openclaw-feishu/feishu-utils": "file:../../projects/skills-dev/feishu/lib/feishu-utils"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/node": "^25.2.1",

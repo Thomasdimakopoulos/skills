@@ -4,8 +4,8 @@
   "description": "Real-time web dashboard for OpenClaw sessions and background tasks. Mobile-responsive with auto-refresh.",
   "main": "server.js",
   "scripts": {
-    "start": "node init && node server.js",
-    "dev": "node init && node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
     "express": "^4.22.1"

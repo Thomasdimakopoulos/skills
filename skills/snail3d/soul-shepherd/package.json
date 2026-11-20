@@ -7,8 +7,8 @@
     "soul-shepherd": "scripts/soul-shepherd.js"
   },
   "scripts": {
-    "start": "node init && node scripts/soul-shepherd.js",
-    "dev": "node init && DEV_MODE=true node scripts/soul-shepherd.js",
+    "start": "node scripts/soul-shepherd.js",
+    "dev": "DEV_MODE=true node scripts/soul-shepherd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

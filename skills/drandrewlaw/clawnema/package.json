@@ -4,8 +4,8 @@
   "description": "Clownema skill - Virtual cinema for OpenClaw AI agents",
   "main": "dist/clawnema.js",
   "scripts": {
-    "build": "node init && tsc",
-    "dev": "node init && ts-node clawnema.ts",
+    "build": "tsc",
+    "dev": "ts-node clawnema.ts",
     "test": "echo \"Tests not yet implemented\""
   },
   "keywords": [

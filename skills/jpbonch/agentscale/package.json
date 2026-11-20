@@ -18,10 +18,10 @@
     "dist"
   ],
   "scripts": {
-    "dev": "node init && npx tsx --watch src/index.ts",
-    "build": "node init && tsc",
+    "dev": "npx tsx --watch src/index.ts",
+    "build": "tsc",
     "prepublishOnly": "npm run build",
-    "start": "node init && node dist/index.js"
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "commander": "^13.0.0",

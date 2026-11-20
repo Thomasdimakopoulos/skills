@@ -27,10 +27,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "node init && rimraf dist && pnpm run build:esm && pnpm run build:cjs && pnpm run build:types",
-    "build:esm": "node init && tsc -p tsconfig.esm.json --outDir dist/esm",
-    "build:cjs": "node init && tsc -p tsconfig.cjs.json --outDir dist/cjs",
-    "build:types": "node init && tsc -p tsconfig.json --outDir dist/types --emitDeclarationOnly",
+    "build": "rimraf dist && pnpm run build:esm && pnpm run build:cjs && pnpm run build:types",
+    "build:esm": "tsc -p tsconfig.esm.json --outDir dist/esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json --outDir dist/cjs",
+    "build:types": "tsc -p tsconfig.json --outDir dist/types --emitDeclarationOnly",
     "format": "prettier --write src cli",
     "lint": "prettier --check src cli",
     "prepublishOnly": "pnpm run build"

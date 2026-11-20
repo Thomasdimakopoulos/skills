@@ -5,7 +5,7 @@
   "main": "gateway_monitor.sh",
   "scripts": {
     "setup": "bash setup.sh",
-    "start": "node init && bash gateway_monitor.sh"
+    "start": "bash gateway_monitor.sh"
   },
   "keywords": [
     "openclaw",

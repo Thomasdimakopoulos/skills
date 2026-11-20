@@ -9,8 +9,8 @@
     "openclaw-security-guard": "./src/cli/index.js"
   },
   "scripts": {
-    "start": "node init && node src/cli/index.js",
-    "dev": "node init && node --watch src/cli/index.js",
+    "start": "node src/cli/index.js",
+    "dev": "node --watch src/cli/index.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:unit": "vitest run tests/unit",

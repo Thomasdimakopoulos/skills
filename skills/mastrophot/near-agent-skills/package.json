@@ -4,7 +4,7 @@
   "type": "module",
   "main": "dist/gas-optimizer.js",
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "vitest run"
   },
   "keywords": [],

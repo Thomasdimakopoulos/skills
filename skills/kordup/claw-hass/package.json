@@ -36,7 +36,7 @@
   },
   "scripts": {
     "clean": "rimraf build",
-    "build": "node init && tsc -p tsconfig.src.json",
+    "build": "tsc -p tsconfig.src.json",
     "lint": "eslint 'src/**/*.ts' && tsc -p tsconfig.src.json --noEmit"
   }
 }

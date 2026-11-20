@@ -7,7 +7,7 @@
     "feishu-docs": "./scripts/index.js"
   },
   "scripts": {
-    "start": "node init && node scripts/index.js"
+    "start": "node scripts/index.js"
   },
   "private": true,
   "dependencies": {

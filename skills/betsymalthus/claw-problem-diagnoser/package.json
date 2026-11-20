@@ -6,7 +6,7 @@
   "scripts": {
     "test": "python test_problem_diagnoser.py",
     "diagnose": "python -m problem_diagnoser.cli",
-    "dev": "node init && python -m problem_diagnoser.cli --test"
+    "dev": "python -m problem_diagnoser.cli --test"
   },
   "author": "Claw & Boss",
   "license": "MIT",

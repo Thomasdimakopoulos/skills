@@ -7,7 +7,7 @@
     "receipts": "./capture.js"
   },
   "scripts": {
-    "start": "node init && node capture.js",
+    "start": "node capture.js",
     "serve": "node capture.js serve",
     "test": "node capture.js identity show"
   },

@@ -7,7 +7,7 @@
     "ai-upload": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "keywords": [
     "upload",

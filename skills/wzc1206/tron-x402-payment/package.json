@@ -4,8 +4,8 @@
   "description": "x402 payment skill for TRON",
   "type": "module",
   "scripts": {
-    "build": "node init && npx @vercel/ncc build src/x402_tron_invoke.ts -o dist && mv dist/index.js dist/x402_tron_invoke.js",
-    "start": "node init && node dist/x402_tron_invoke.js"
+    "build": "npx @vercel/ncc build src/x402_tron_invoke.ts -o dist && mv dist/index.js dist/x402_tron_invoke.js",
+    "start": "node dist/x402_tron_invoke.js"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",

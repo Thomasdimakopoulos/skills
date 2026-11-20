@@ -4,9 +4,9 @@
   "description": "Stock screener using technical and fundamental analysis",
   "type": "module",
   "scripts": {
-    "build": "node init && bun build:tsc",
-    "build:tsc": "node init && tsc",
-    "dev": "node init && bun run src/screening.ts",
+    "build": "bun build:tsc",
+    "build:tsc": "tsc",
+    "dev": "bun run src/screening.ts",
     "screening": "bun run src/screening.ts",
     "technical": "bun run src/technicalOnly.ts",
     "analyze": "bun run src/analyze.ts",

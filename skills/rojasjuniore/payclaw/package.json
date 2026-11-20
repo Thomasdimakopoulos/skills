@@ -7,9 +7,9 @@
     "payclaw": "./dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && node dist/cli.js",
-    "dev": "node init && ts-node src/cli.ts"
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
   },
   "keywords": [
     "openclaw",

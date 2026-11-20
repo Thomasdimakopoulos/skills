@@ -4,8 +4,8 @@
   "description": "FutureFulfillment Picqer Dashboard v2 - JSON API",
   "type": "module",
   "scripts": {
-    "build": "node init && tsc",
-    "dev": "node init && tsc --watch",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "node --experimental-specifier-resolution=node dist/test.js"
   },
   "dependencies": {

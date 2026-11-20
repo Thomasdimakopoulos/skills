@@ -5,7 +5,7 @@
   "type": "module",
   "main": "nexus-tool-runner.ts",
   "scripts": {
-    "start": "node init && tsx nexus-tool-runner.ts",
+    "start": "tsx nexus-tool-runner.ts",
     "list": "tsx nexus-tool-runner.ts --list",
     "search": "tsx nexus-tool-runner.ts --search",
     "call": "tsx nexus-tool-runner.ts --call"

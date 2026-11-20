@@ -7,7 +7,7 @@
     "km": "./index-local.js"
   },
   "scripts": {
-    "start": "node init && node index-local.js",
+    "start": "node index-local.js",
     "sync": "node index-local.js sync",
     "classify": "node index-local.js classify",
     "test": "echo \"Error: no test specified\" && exit 1"

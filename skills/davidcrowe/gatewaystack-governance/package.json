@@ -33,7 +33,7 @@
     "references/"
   ],
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "npm run build && node scripts/governance-gateway.js --action self-test",
     "test:unit": "vitest run",
     "test:all": "vitest run && npm test",

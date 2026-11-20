@@ -4,7 +4,7 @@
   "description": "AlephNet Node - Semantic computing, social network, and Coherence verification for AI agents",
   "main": "index.js",
   "scripts": {
-    "start": "node init && node index.js",
+    "start": "node index.js",
     "test": "cd ../.. && NODE_OPTIONS='--require ./skills/alephnet-node/lib/__tests__/file-polyfill.cjs' npx vitest run skills/alephnet-node/lib/__tests__"
   },
   "dependencies": {

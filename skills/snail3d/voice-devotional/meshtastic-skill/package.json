@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "node tests/test-connection.js",
-    "start": "node init && node scripts/meshtastic-cli.js",
+    "start": "node scripts/meshtastic-cli.js",
     "cli": "node scripts/meshtastic-cli.js",
     "check": "node scripts/meshtastic-agent.js"
   },

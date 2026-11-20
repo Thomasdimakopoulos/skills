@@ -5,8 +5,8 @@
   "main": "lib/server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node init && node lib/server.js",
-    "dev": "node init && node --watch lib/server.js",
+    "start": "node lib/server.js",
+    "dev": "node --watch lib/server.js",
     "test": "node --test",
     "test:coverage": "node --test --experimental-test-coverage",
     "lint": "ESLINT_USE_FLAT_CONFIG=true eslint lib/ tests/",

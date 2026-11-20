@@ -7,7 +7,7 @@
     "ai-cache-strategy": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "keywords": [
     "caching",

@@ -11,7 +11,7 @@
     "@x402/evm": "^2.3.1"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "typecheck": "tsc --noEmit"
   }
 }

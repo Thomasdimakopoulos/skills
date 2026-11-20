@@ -7,7 +7,7 @@
     "ai-tailwind": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "keywords": [
     "ai",

@@ -7,7 +7,7 @@
   "scripts": {
     "setup": "node scripts/setup.js",
     "test": "node monitor.js --dry-run",
-    "start": "node init && node monitor.js",
+    "start": "node monitor.js",
     "daemon": "pm2 start ecosystem.config.js",
     "uninstall": "node scripts/uninstall.js",
     "verify": "node scripts/verify-package.js",

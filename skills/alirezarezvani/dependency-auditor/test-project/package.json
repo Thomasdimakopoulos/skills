@@ -4,9 +4,9 @@
   "description": "A sample web application with various dependencies for testing dependency auditing",
   "main": "index.js",
   "scripts": {
-    "start": "node init && node index.js",
-    "dev": "node init && nodemon index.js",
-    "build": "node init && webpack --mode production",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "webpack --mode production",
     "test": "jest",
     "lint": "eslint src/",
     "audit": "npm audit"

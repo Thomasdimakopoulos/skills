@@ -4,7 +4,7 @@
   "description": "Connect Feishu/Lark bot to Clawdbot agent via WebSocket \u2014 no public server needed",
   "type": "module",
   "scripts": {
-    "start": "node init && node bridge.mjs",
+    "start": "node bridge.mjs",
     "setup": "node setup-service.mjs"
   },
   "dependencies": {

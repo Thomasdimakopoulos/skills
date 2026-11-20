@@ -5,9 +5,9 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && node --loader ts-node/esm src/index.ts",
-    "dev": "node init && npx tsx src/index.ts"
+    "build": "tsc",
+    "start": "node --loader ts-node/esm src/index.ts",
+    "dev": "npx tsx src/index.ts"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",

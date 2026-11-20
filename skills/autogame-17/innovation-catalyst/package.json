@@ -4,7 +4,7 @@
   "description": "Analyzes system state and proposes strategic innovations to break plateaus.",
   "main": "index.js",
   "scripts": {
-    "start": "node init && node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "fs": "0.0.1-security",

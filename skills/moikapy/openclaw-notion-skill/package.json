@@ -8,8 +8,8 @@
     "notion-skill": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "dev": "node init && tsc --watch",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "jest",
     "prepublishOnly": "npm run build"
   },

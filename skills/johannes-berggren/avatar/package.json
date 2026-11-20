@@ -8,11 +8,11 @@
     "openclaw-avatar": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc && vite build",
-    "build:server": "node init && tsc",
-    "start": "node init && node dist/server.js",
-    "dev": "node init && tsx src/server.ts",
-    "dev:client": "node init && vite",
+    "build": "tsc && vite build",
+    "build:server": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "dev:client": "vite",
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "npm run build"
   },

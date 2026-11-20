@@ -7,7 +7,7 @@
     "ai-bundle-check": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "keywords": [
     "bundle-size",

@@ -8,7 +8,7 @@
     "snake-rodeo": "./snake.mjs"
   },
   "scripts": {
-    "start": "node init && node snake.mjs start",
+    "start": "node snake.mjs start",
     "stop": "node snake.mjs stop",
     "status": "node snake.mjs status"
   },

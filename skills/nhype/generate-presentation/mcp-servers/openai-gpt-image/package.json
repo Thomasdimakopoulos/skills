@@ -12,6 +12,6 @@
     "openai": "^4.96.0"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   }
 }

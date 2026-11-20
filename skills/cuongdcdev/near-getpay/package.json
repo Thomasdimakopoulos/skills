@@ -5,11 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "test": "npm run test:api",
     "test:api": "ts-node test-final.ts",
-    "start": "node init && ts-node start-tunnel.ts",
-    "dev": "node init && ts-node server-simple.ts",
+    "start": "ts-node start-tunnel.ts",
+    "dev": "ts-node server-simple.ts",
     "clean": "rm -rf dist",
     "prepublishOnly": "npm run clean && npm run build"
   },

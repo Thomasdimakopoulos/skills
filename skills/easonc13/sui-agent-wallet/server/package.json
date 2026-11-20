@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "type": "module",
   "scripts": {
-    "start": "node init && bun run index.ts",
-    "dev": "node init && bun --watch run index.ts"
+    "start": "bun run index.ts",
+    "dev": "bun --watch run index.ts"
   },
   "dependencies": {
     "@mysten/sui": "^1.21.1",

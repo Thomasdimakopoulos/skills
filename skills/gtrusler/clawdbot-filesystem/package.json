@@ -7,7 +7,7 @@
     "filesystem": "./filesystem"
   },
   "scripts": {
-    "start": "node init && node filesystem",
+    "start": "node filesystem",
     "test": "node filesystem help",
     "install-global": "npm link",
     "uninstall-global": "npm unlink"

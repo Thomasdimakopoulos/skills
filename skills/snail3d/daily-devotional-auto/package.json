@@ -4,7 +4,7 @@
   "description": "Automated daily devotional generator for OpenClaw. Fetches news, generates contextual devotionals, creates videos with your voice, and uploads to YouTube.",
   "main": "scripts/daily-devotional.js",
   "scripts": {
-    "start": "node init && node scripts/daily-devotional.js",
+    "start": "node scripts/daily-devotional.js",
     "generate": "node scripts/devotional-generator.js",
     "test": "node scripts/test.js"
   },

@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "node init && bun run xint.ts",
+    "start": "bun run xint.ts",
     "search": "bun run xint.ts search",
     "trends": "bun run xint.ts trends",
     "mcp": "bun run xint.ts mcp-server",

@@ -7,9 +7,9 @@
     "clawhub": "./dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "prepublishOnly": "npm run build",
-    "dev": "node init && ts-node src/cli.ts"
+    "dev": "ts-node src/cli.ts"
   },
   "keywords": [
     "molt",

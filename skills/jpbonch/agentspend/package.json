@@ -7,7 +7,7 @@
     "cli"
   ],
   "scripts": {
-    "build": "node init && npm run build -w @agentspend/sdk && npm run build -w agentspend",
+    "build": "npm run build -w @agentspend/sdk && npm run build -w agentspend",
     "typecheck": "npm run typecheck --workspaces --if-present"
   },
   "devDependencies": {

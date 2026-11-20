@@ -28,8 +28,8 @@
     ]
   },
   "scripts": {
-    "dev": "node init && bun run --watch index.ts",
-    "start": "node init && bun run index.ts",
+    "dev": "bun run --watch index.ts",
+    "start": "bun run index.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

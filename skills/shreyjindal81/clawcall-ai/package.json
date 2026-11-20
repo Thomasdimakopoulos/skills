@@ -13,7 +13,7 @@
     "telephony"
   ],
   "scripts": {
-    "start": "node init && node telnyx_voice_agent.js",
+    "start": "node telnyx_voice_agent.js",
     "check": "node --check telnyx_voice_agent.js"
   },
   "engines": {

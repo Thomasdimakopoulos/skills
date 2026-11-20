@@ -7,7 +7,7 @@
     "whale-monitor": "./scripts/monitor.js"
   },
   "scripts": {
-    "start": "node init && node scripts/monitor.js",
+    "start": "node scripts/monitor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

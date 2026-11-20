@@ -33,7 +33,7 @@
     "swap": "node src/swap.js",
     "check-update": "node src/check-update.js",
     "agent": "node src/run-agent.js",
-    "start": "node init && node src/run-agent.js",
+    "start": "node src/run-agent.js",
     "attest:aptos": "node src/attest-aptos-wallet.js",
     "attest:evm": "node src/attest-evm-wallet.js"
   },

@@ -9,7 +9,7 @@
     "cleaner"
   ],
   "scripts": {
-    "start": "node init && node --import tsx scripts/clean.ts"
+    "start": "node --import tsx scripts/clean.ts"
   },
   "dependencies": {
     "tsx": "^4.21.0"

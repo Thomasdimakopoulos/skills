@@ -4,7 +4,7 @@
   "description": "Multi-channel customer service auto-responder with FAQ matching, escalation, and daily summaries",
   "main": "scripts/monitor.js",
   "scripts": {
-    "start": "node init && node scripts/monitor.js --config config/example.json",
+    "start": "node scripts/monitor.js --config config/example.json",
     "test:respond": "node scripts/respond.js --config config/template.json --channel instagram --user test --message '\uc601\uc5c5\uc2dc\uac04?'",
     "dashboard": "node scripts/dashboard.js --config config/template.json"
   },

@@ -25,7 +25,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "smoke-test": "node scripts/smoke-test.mjs",
-    "build": "node init && tsc",
+    "build": "tsc",
     "watch": "tsc -w",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",

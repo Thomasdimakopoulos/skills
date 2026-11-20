@@ -5,7 +5,7 @@
   "main": "connector.js",
   "type": "module",
   "scripts": {
-    "start": "node init && node connector.js",
+    "start": "node connector.js",
     "play": "node connector.js"
   },
   "keywords": [

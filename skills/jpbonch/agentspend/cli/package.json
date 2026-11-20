@@ -21,7 +21,7 @@
     "viem": "^2.0.0"
   },
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "typecheck": "tsc --noEmit"
   }
 }

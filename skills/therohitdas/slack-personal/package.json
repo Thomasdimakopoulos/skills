@@ -37,7 +37,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "dev": "node init && node bin/slk.js"
+    "dev": "node bin/slk.js"
   },
   "dependencies": {},
   "devDependencies": {}

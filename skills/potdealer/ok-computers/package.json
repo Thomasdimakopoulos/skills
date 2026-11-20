@@ -10,7 +10,7 @@
     "net-protocol": "./net-protocol.js"
   },
   "scripts": {
-    "start": "node init && node okcomputer.js",
+    "start": "node okcomputer.js",
     "test": "node test-ring-gate.js"
   },
   "dependencies": {

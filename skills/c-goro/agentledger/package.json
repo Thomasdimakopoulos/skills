@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node test/ledger.test.js",
     "cli": "node src/cli.js",
-    "start": "node init && node src/cli.js init",
+    "start": "node src/cli.js init",
     "postinstall": "echo '\n\u2705 AgentLedger installed successfully!\n\ud83d\udcc1 Run: node src/cli.js init\n\ud83d\udcd6 See: SKILL.md for usage instructions\n'"
   },
   "keywords": [

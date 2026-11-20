@@ -15,7 +15,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/",
-    "build": "node init && tsc --declaration",
+    "build": "tsc --declaration",
     "postinstall": "node scripts/postinstall.js"
   },
   "keywords": [

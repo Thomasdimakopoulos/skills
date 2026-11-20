@@ -4,8 +4,8 @@
   "description": "Complete agent-to-agent payment system with escrow, negotiation, and reputation for Polygon SHIB",
   "main": "index.js",
   "scripts": {
-    "start": "node init && node a2a-agent-full.js",
-    "start:basic": "node init && node a2a-agent-v2.js",
+    "start": "node a2a-agent-full.js",
+    "start:basic": "node a2a-agent-v2.js",
     "test": "npm run test:security && npm run test:escrow && npm run test:reputation",
     "test:security": "node test-security.js",
     "test:escrow": "node test-escrow-negotiation.js",

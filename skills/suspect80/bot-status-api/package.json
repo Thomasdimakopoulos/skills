@@ -4,8 +4,8 @@
   "description": "Configurable runtime status API \u2014 exposes health, service connectivity, and system metrics",
   "main": "server.js",
   "scripts": {
-    "start": "node init && node server.js",
-    "dev": "node init && node --watch server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "type": "module"
 }

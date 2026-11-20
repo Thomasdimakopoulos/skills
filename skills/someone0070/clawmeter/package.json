@@ -6,8 +6,8 @@
   "main": "src/server.mjs",
   "scripts": {
     "ingest": "node src/ingest.mjs",
-    "start": "node init && node src/server.mjs",
-    "dev": "node init && node src/server.mjs --watch"
+    "start": "node src/server.mjs",
+    "dev": "node src/server.mjs --watch"
   },
   "keywords": [
     "openclaw",

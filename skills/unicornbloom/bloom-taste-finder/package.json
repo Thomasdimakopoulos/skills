@@ -4,8 +4,8 @@
   "description": "OpenClaw skill for generating Bloom Identity Cards",
   "main": "src/index.ts",
   "scripts": {
-    "start": "node init && ts-node src/index.ts",
-    "build": "node init && tsc",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
     "test": "echo \"No tests yet\"",
     "test:conversation": "ts-node scripts/test-conversation-analysis.ts",
     "test:cdp-wallet": "ts-node scripts/test-cdp-wallet.ts",

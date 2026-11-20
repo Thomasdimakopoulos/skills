@@ -7,7 +7,7 @@
     "flwr-kit": "./bin/cli.js"
   },
   "scripts": {
-    "start": "node init && node bin/cli.js"
+    "start": "node bin/cli.js"
   },
   "keywords": [
     "branding",

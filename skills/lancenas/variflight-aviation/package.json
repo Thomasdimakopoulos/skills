@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node test.js",
     "lint": "eslint src/",
-    "start": "node init && node src/cli.js"
+    "start": "node src/cli.js"
   },
   "keywords": [
     "openclaw",

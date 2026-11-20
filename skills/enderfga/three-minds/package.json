@@ -7,8 +7,8 @@
     "three-minds": "./dist/index.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && ts-node src/index.ts"
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
   },
   "dependencies": {
     "commander": "^11.0.0",

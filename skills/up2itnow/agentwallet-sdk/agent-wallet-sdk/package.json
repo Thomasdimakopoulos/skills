@@ -8,8 +8,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && tsc",
-    "dev": "node init && tsc --watch",
+    "build": "tsc",
+    "dev": "tsc --watch",
     "clean": "rm -rf dist",
     "test": "vitest run"
   },

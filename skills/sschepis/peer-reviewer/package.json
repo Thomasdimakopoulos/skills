@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && node dist/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
     "test": "ts-node src/test.ts",
     "prepublishOnly": "npm run build"
   },

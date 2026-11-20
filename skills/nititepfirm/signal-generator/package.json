@@ -14,7 +14,7 @@
   ],
   "main": "signal_generator.py",
   "scripts": {
-    "start": "node init && bash run.sh",
+    "start": "bash run.sh",
     "test": "python3 signal_generator.py"
   },
   "dependencies": {

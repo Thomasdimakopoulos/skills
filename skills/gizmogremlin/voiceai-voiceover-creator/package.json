@@ -7,9 +7,9 @@
     "voiceai-vo": "./dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "dev": "node init && tsc --watch",
-    "start": "node init && node dist/cli.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint src/",

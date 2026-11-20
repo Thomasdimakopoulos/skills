@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./test/run-tests.sh",
     "install": "./scripts/install.sh",
-    "start": "node init && ./scripts/enable.sh",
+    "start": "./scripts/enable.sh",
     "stop": "./scripts/disable.sh",
     "status": "./scripts/status.sh",
     "health": "./scripts/health.sh"

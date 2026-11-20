@@ -7,8 +7,8 @@
     "virtuals": "./dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc",
-    "start": "node init && node dist/cli.js"
+    "build": "tsc",
+    "start": "node dist/cli.js"
   },
   "keywords": [
     "openclaw",

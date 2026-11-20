@@ -7,7 +7,7 @@
     "ai-vercel-config": "dist/cli.js"
   },
   "scripts": {
-    "build": "node init && tsc"
+    "build": "tsc"
   },
   "keywords": [
     "You are a Vercel deployment expert. Analyze the current project directory and generate an optimized vercel.json configuration. Include: framework detection",
